@@ -264,7 +264,7 @@
             "temperature_sensor BTT_Octopus",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-08-16T22:37:57Z"
+          "timestamp": "2026-08-17T14:27:17Z"
         },
         "optional": []
       },
@@ -318,16 +318,16 @@
           "#9C27B0",
           "#00BCD4"
         ],
-        "last_brightness": 100,
+        "last_brightness": 10,
         "last_color": "#000000",
         "last_white": 1.0,
-        "led_on_at_start": false,
+        "led_on_at_start": true,
         "macro_devices": [],
         "selected": [],
         "selected_strips": [
           "led Chamber"
         ],
-        "startup_brightness": 100,
+        "startup_brightness": 10,
         "strip": "led Chamber"
       },
       "macros": {
