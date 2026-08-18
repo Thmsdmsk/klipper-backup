@@ -13,7 +13,7 @@
     "dim_brightness": 30,
     "dim_sec": 0,
     "drm_device": "",
-    "gcode_render_mode": 2,
+    "gcode_render_mode": 1,
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "page_scroll_buttons": false,
@@ -49,7 +49,7 @@
   "log_level": "debug",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 2
+    "jog_mode": 1
   },
   "print_start_history": {
     "entries": [
@@ -264,7 +264,7 @@
             "temperature_sensor BTT_Octopus",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-08-18T17:22:03Z"
+          "timestamp": "2026-08-18T19:39:50Z"
         },
         "optional": []
       },
@@ -384,7 +384,7 @@
       "panel_widgets": {
         "home": {
           "main_page_index": 0,
-          "next_page_id": 6,
+          "next_page_id": 7,
           "pages": [
             {
               "id": "main",
@@ -494,14 +494,6 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 3,
-                  "colspan": 2,
-                  "enabled": false,
-                  "id": "nozzle_temps",
-                  "row": 1,
-                  "rowspan": 2
-                },
-                {
                   "col": 0,
                   "colspan": 2,
                   "enabled": true,
@@ -604,19 +596,6 @@
                   "id": "gcode_console",
                   "row": -1,
                   "rowspan": 1
-                },
-                {
-                  "col": 1,
-                  "colspan": 1,
-                  "config": {
-                    "flip_h": false,
-                    "flip_v": false,
-                    "rotation": 0
-                  },
-                  "enabled": false,
-                  "id": "camera",
-                  "row": 1,
-                  "rowspan": 2
                 },
                 {
                   "col": 2,
@@ -742,14 +721,6 @@
                 {
                   "col": 0,
                   "colspan": 1,
-                  "enabled": false,
-                  "id": "camera",
-                  "row": 0,
-                  "rowspan": 3
-                },
-                {
-                  "col": 0,
-                  "colspan": 1,
                   "enabled": true,
                   "id": "led_controls",
                   "row": 3,
@@ -781,7 +752,7 @@
                 },
                 {
                   "col": 0,
-                  "colspan": 6,
+                  "colspan": 3,
                   "config": {
                     "follow_overlay": false,
                     "sensors": [
@@ -830,7 +801,7 @@
                   "enabled": true,
                   "id": "temp_graph:1",
                   "row": 0,
-                  "rowspan": 3
+                  "rowspan": 2
                 },
                 {
                   "col": 4,
