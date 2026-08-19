@@ -218,11 +218,13 @@
           "assigned": true,
           "bed_temp": 0,
           "brand": "Prusa",
+          "catalog_id": "",
           "color_rgb": 8421504,
           "material": "PC-CF",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 592.6036987304688,
+          "product_name": "",
+          "remaining_weight_g": 564.508056640625,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -264,7 +266,7 @@
             "temperature_sensor BTT_Octopus",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-08-18T23:47:22Z"
+          "timestamp": "2026-08-19T14:58:00Z"
         },
         "optional": []
       },
