@@ -224,7 +224,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 564.508056640625,
+          "remaining_weight_g": 515.414306640625,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -266,7 +266,7 @@
             "temperature_sensor BTT_Octopus",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-08-19T14:58:00Z"
+          "timestamp": "2026-08-19T18:57:42Z"
         },
         "optional": []
       },
@@ -320,8 +320,8 @@
           "#9C27B0",
           "#00BCD4"
         ],
-        "last_brightness": 10,
-        "last_color": "#000000",
+        "last_brightness": 100,
+        "last_color": "#FFFFFF",
         "last_white": 1.0,
         "led_on_at_start": true,
         "macro_devices": [],
@@ -386,7 +386,7 @@
       "panel_widgets": {
         "home": {
           "main_page_index": 0,
-          "next_page_id": 7,
+          "next_page_id": 8,
           "pages": [
             {
               "id": "main",
@@ -398,22 +398,6 @@
                   "id": "printer_image",
                   "row": 0,
                   "rowspan": 3
-                },
-                {
-                  "col": 0,
-                  "colspan": 3,
-                  "config": {
-                    "layout_style": "library",
-                    "show_job_queue": false,
-                    "show_print_files": true,
-                    "show_recent_prints": false,
-                    "show_reprint_last": false,
-                    "show_title": false
-                  },
-                  "enabled": true,
-                  "id": "print_status",
-                  "row": 3,
-                  "rowspan": 1
                 },
                 {
                   "col": 2,
@@ -714,6 +698,38 @@
                   "id": "control_buttons",
                   "row": -1,
                   "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "nozzle_temps",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "camera",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": 0,
+                  "colspan": 3,
+                  "config": {
+                    "layout_style": "library",
+                    "show_job_queue": false,
+                    "show_print_files": true,
+                    "show_recent_prints": false,
+                    "show_reprint_last": false,
+                    "show_title": true
+                  },
+                  "enabled": true,
+                  "id": "print_status",
+                  "row": 3,
+                  "rowspan": 1
                 }
               ]
             },
@@ -830,6 +846,10 @@
                   "rowspan": 1
                 }
               ]
+            },
+            {
+              "id": "page_7",
+              "widgets": []
             }
           ]
         }
