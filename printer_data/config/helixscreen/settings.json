@@ -266,7 +266,7 @@
             "temperature_sensor BTT_Octopus",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-08-19T18:57:42Z"
+          "timestamp": "2026-08-19T21:29:51Z"
         },
         "optional": []
       },
@@ -846,10 +846,6 @@
                   "rowspan": 1
                 }
               ]
-            },
-            {
-              "id": "page_7",
-              "widgets": []
             }
           ]
         }
