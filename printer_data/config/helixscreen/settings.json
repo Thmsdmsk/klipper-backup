@@ -258,10 +258,10 @@
             "led Chamber"
           ],
           "sensors": [
-            "tmc5160 stepper_x",
-            "tmc5160 stepper_x1",
             "tmc5160 stepper_y",
+            "tmc5160 stepper_x",
             "tmc5160 stepper_y1",
+            "tmc5160 stepper_x1",
             "tmc5160 stepper_z",
             "tmc5160 stepper_z1",
             "tmc5160 stepper_z2",
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-08-28T21:45:56Z"
+          "timestamp": "2026-08-28T23:10:41Z"
         },
         "optional": []
       },
