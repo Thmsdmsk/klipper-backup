@@ -246,8 +246,7 @@
             "fan",
             "heater_fan hotend_fan",
             "controller_fan Controller",
-            "fan_generic Nevermore",
-            "fan_generic Exhaust"
+            "fan_generic Nevermore"
           ],
           "filament_sensors": [],
           "heaters": [
@@ -259,10 +258,10 @@
             "led Chamber"
           ],
           "sensors": [
-            "tmc5160 stepper_y",
             "tmc5160 stepper_x",
-            "tmc5160 stepper_y1",
             "tmc5160 stepper_x1",
+            "tmc5160 stepper_y",
+            "tmc5160 stepper_y1",
             "tmc5160 stepper_z",
             "tmc5160 stepper_z1",
             "tmc5160 stepper_z2",
@@ -270,10 +269,10 @@
             "temperature_sensor beacon_coil",
             "temperature_sensor Chamber",
             "temperature_sensor RPi4B",
-            "temperature_sensor BTT_Octopus",
+            "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-08-28T16:43:53Z"
+          "timestamp": "2026-08-28T18:52:14Z"
         },
         "optional": []
       },
