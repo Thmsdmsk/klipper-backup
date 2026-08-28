@@ -5,7 +5,7 @@
   },
   "brightness": 100,
   "completion_alert": true,
-  "config_version": 21,
+  "config_version": 23,
   "dark_mode": true,
   "display": {
     "animations_enabled": true,
