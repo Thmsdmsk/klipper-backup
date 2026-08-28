@@ -204,7 +204,7 @@
       "extra_sensors": {},
       "fans": {
         "chamber": "fan_generic Nevermore",
-        "exhaust": "fan_generic Exhaust",
+        "exhaust": "",
         "hotend": "heater_fan hotend_fan",
         "names": {
           "fan": "Part Cooling Fan",
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-08-28T18:52:14Z"
+          "timestamp": "2026-08-28T20:30:32Z"
         },
         "optional": []
       },
