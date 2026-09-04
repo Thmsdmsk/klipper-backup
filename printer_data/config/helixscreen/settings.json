@@ -45,7 +45,7 @@
     "scroll_throw": 25,
     "touch_device": ""
   },
-  "language": "de",
+  "language": "en",
   "log_level": "debug",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
@@ -224,7 +224,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 515.414306640625,
+          "remaining_weight_g": 467.73199462890625,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-08-31T23:34:52Z"
+          "timestamp": "2026-09-04T13:02:53Z"
         },
         "optional": []
       },
