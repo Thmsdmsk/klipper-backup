@@ -216,15 +216,15 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 0,
-          "brand": "Prusa",
-          "catalog_id": "",
+          "bed_temp": 55,
+          "brand": "Generic",
+          "catalog_id": "generic-pla",
           "color_rgb": 8421504,
-          "material": "PC-CF",
-          "nozzle_temp_max": 0,
-          "nozzle_temp_min": 0,
-          "product_name": "",
-          "remaining_weight_g": 467.73199462890625,
+          "material": "PLA",
+          "nozzle_temp_max": 240,
+          "nozzle_temp_min": 190,
+          "product_name": "PLA",
+          "remaining_weight_g": 449.84820556640625,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-09-04T13:02:53Z"
+          "timestamp": "2026-09-04T15:46:01Z"
         },
         "optional": []
       },
