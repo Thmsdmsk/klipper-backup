@@ -224,7 +224,7 @@
           "nozzle_temp_max": 240,
           "nozzle_temp_min": 190,
           "product_name": "PLA",
-          "remaining_weight_g": 433.0206604003906,
+          "remaining_weight_g": 211.4709014892578,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-09-09T13:25:22Z"
+          "timestamp": "2026-09-10T11:49:59Z"
         },
         "optional": []
       },
@@ -575,14 +575,6 @@
                 },
                 {
                   "col": -1,
-                  "colspan": 2,
-                  "enabled": false,
-                  "id": "print_stats",
-                  "row": -1,
-                  "rowspan": 2
-                },
-                {
-                  "col": -1,
                   "colspan": 1,
                   "enabled": false,
                   "id": "gcode_console",
@@ -736,6 +728,14 @@
                   "id": "print_status",
                   "row": 3,
                   "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "bypass",
+                  "row": -1,
+                  "rowspan": 1
                 }
               ]
             },
@@ -850,6 +850,14 @@
                   "id": "gcode_console",
                   "row": 3,
                   "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "print_stats",
+                  "row": -1,
+                  "rowspan": 2
                 }
               ]
             }
@@ -897,7 +905,7 @@
   },
   "ui_sounds_enabled": true,
   "update": {
-    "dismissed_version": "0.99.106"
+    "dismissed_version": "1.0.0"
   },
   "wifi_expected": true,
   "wizard_completed": true
