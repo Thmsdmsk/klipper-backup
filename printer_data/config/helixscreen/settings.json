@@ -224,7 +224,7 @@
           "nozzle_temp_max": 240,
           "nozzle_temp_min": 190,
           "product_name": "PLA",
-          "remaining_weight_g": 449.84820556640625,
+          "remaining_weight_g": 433.0206604003906,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-09-04T15:46:01Z"
+          "timestamp": "2026-09-09T13:25:22Z"
         },
         "optional": []
       },
