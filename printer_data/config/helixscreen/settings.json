@@ -224,7 +224,7 @@
           "nozzle_temp_max": 290,
           "nozzle_temp_min": 260,
           "product_name": "PC",
-          "remaining_weight_g": 169.15963745117188,
+          "remaining_weight_g": 124.74465942382813,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-09-11T09:11:22Z"
+          "timestamp": "2026-09-11T13:06:25Z"
         },
         "optional": []
       },
