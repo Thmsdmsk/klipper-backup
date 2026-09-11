@@ -13,7 +13,7 @@
     "dim_brightness": 30,
     "dim_sec": 0,
     "drm_device": "",
-    "gcode_render_mode": 1,
+    "gcode_render_mode": 2,
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "page_scroll_buttons": false,
@@ -49,7 +49,7 @@
   "log_level": "debug",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 1
+    "jog_mode": 2
   },
   "print_start_history": {
     "entries": [
@@ -216,15 +216,15 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 55,
+          "bed_temp": 110,
           "brand": "Generic",
-          "catalog_id": "generic-pla",
+          "catalog_id": "generic-pc",
           "color_rgb": 8421504,
-          "material": "PLA",
-          "nozzle_temp_max": 240,
-          "nozzle_temp_min": 190,
-          "product_name": "PLA",
-          "remaining_weight_g": 211.4709014892578,
+          "material": "PC",
+          "nozzle_temp_max": 290,
+          "nozzle_temp_min": 260,
+          "product_name": "PC",
+          "remaining_weight_g": 169.15963745117188,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-09-10T21:23:06Z"
+          "timestamp": "2026-09-11T09:11:22Z"
         },
         "optional": []
       },
