@@ -216,15 +216,15 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 100,
-          "brand": "Prusament",
-          "catalog_id": "prusament-pc-blend-cf",
+          "bed_temp": 55,
+          "brand": "Generic",
+          "catalog_id": "generic-pla",
           "color_rgb": 4868682,
-          "material": "PC-CF",
-          "nozzle_temp_max": 295,
-          "nozzle_temp_min": 275,
-          "product_name": "PC Blend CF",
-          "remaining_weight_g": 686.0,
+          "material": "PLA",
+          "nozzle_temp_max": 240,
+          "nozzle_temp_min": 190,
+          "product_name": "PLA",
+          "remaining_weight_g": 673.901123046875,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 841.0
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-09-12T20:52:46Z"
+          "timestamp": "2026-09-13T11:29:22Z"
         },
         "optional": []
       },
