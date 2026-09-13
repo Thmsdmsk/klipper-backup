@@ -216,18 +216,18 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 110,
-          "brand": "Generic",
-          "catalog_id": "generic-pc",
-          "color_rgb": 8421504,
-          "material": "PC",
-          "nozzle_temp_max": 290,
-          "nozzle_temp_min": 260,
-          "product_name": "PC",
-          "remaining_weight_g": 124.74465942382813,
+          "bed_temp": 100,
+          "brand": "Prusament",
+          "catalog_id": "prusament-pc-blend-cf",
+          "color_rgb": 4868682,
+          "material": "PC-CF",
+          "nozzle_temp_max": 295,
+          "nozzle_temp_min": 275,
+          "product_name": "PC Blend CF",
+          "remaining_weight_g": 686.0,
           "spool_name": "",
           "spoolman_id": 0,
-          "total_weight_g": 1000.0
+          "total_weight_g": 841.0
         }
       },
       "filament_sensors": {},
@@ -272,7 +272,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor EBBCan"
           ],
-          "timestamp": "2026-09-11T19:17:50Z"
+          "timestamp": "2026-09-12T20:52:46Z"
         },
         "optional": []
       },
@@ -352,9 +352,24 @@
           "G32",
           "HOTEND_FAN_CHECK",
           "LOAD_FILAMENT",
+          "LOWER_STEPPER_CURRENT_AWD",
+          "NEOPIXEL",
+          "NEOPIXEL_BLUE",
+          "NEOPIXEL_COLOR",
+          "NEOPIXEL_GREEN",
+          "NEOPIXEL_LOGO",
+          "NEOPIXEL_LOGO_OFF",
+          "NEOPIXEL_NOZZLE",
+          "NEOPIXEL_NOZZLE_OFF",
+          "NEOPIXEL_NOZZLE_ON",
+          "NEOPIXEL_OFF",
+          "NEOPIXEL_RED",
+          "NEOPIXEL_WHITE",
+          "NEOPIXEL_YELLOW",
           "PAUSE",
           "PRINT_END",
           "PRINT_START",
+          "RESTORE_STEPPER_CURRENT_AWD",
           "RESUME",
           "SET_LOGO_LEDS_OFF",
           "SET_NOZZLE_LEDS_OFF",
@@ -372,6 +387,9 @@
           "STATUS_OFF",
           "STATUS_PRINTING",
           "STATUS_READY",
+          "SYNC_MOTOR_CALIBRATION",
+          "SYNC_MOTOR_STATS",
+          "SYNC_MOTOR_STATS_CLEAR",
           "TEST_SPEED",
           "UNLOAD_FILAMENT",
           "_CLIENT_EXTRUDE",
@@ -383,7 +401,8 @@
           "_SET_NOZZLE_LEDS",
           "_SET_SB_LEDS",
           "_SET_SB_LEDS_BY_NAME",
-          "_TOOLHEAD_PARK_PAUSE_CANCEL"
+          "_TOOLHEAD_PARK_PAUSE_CANCEL",
+          "_VARS"
         ]
       },
       "moonraker_api_key": false,
@@ -506,14 +525,6 @@
                   "colspan": 3,
                   "enabled": false,
                   "id": "preheat",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "active_spool",
                   "row": -1,
                   "rowspan": 1
                 },
@@ -706,14 +717,6 @@
                   "rowspan": 2
                 },
                 {
-                  "col": -1,
-                  "colspan": 2,
-                  "enabled": false,
-                  "id": "camera",
-                  "row": -1,
-                  "rowspan": 2
-                },
-                {
                   "col": 0,
                   "colspan": 3,
                   "config": {
@@ -736,6 +739,14 @@
                   "id": "bypass",
                   "row": -1,
                   "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "print_stats",
+                  "row": -1,
+                  "rowspan": 2
                 }
               ]
             },
@@ -858,6 +869,27 @@
                   "id": "print_stats",
                   "row": -1,
                   "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "config": {
+                    "flip_h": false,
+                    "flip_v": false,
+                    "rotation": 0
+                  },
+                  "enabled": false,
+                  "id": "camera",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": 3,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "active_spool",
+                  "row": 0,
+                  "rowspan": 1
                 }
               ]
             }
