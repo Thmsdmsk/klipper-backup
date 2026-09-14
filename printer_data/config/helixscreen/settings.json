@@ -98,15 +98,6 @@
       },
       {
         "phases": {
-          "7": 25,
-          "9": 6
-        },
-        "temp_bucket": 2,
-        "timestamp": 1783255832,
-        "total": 125
-      },
-      {
-        "phases": {
           "7": 103
         },
         "temp_bucket": 2,
@@ -185,6 +176,15 @@
         "timestamp": 1789399873,
         "total": 148,
         "window": 1
+      },
+      {
+        "phases": {
+          "7": 82
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789406804,
+        "total": 185,
+        "window": 1
       }
     ]
   },
@@ -218,7 +218,7 @@
         "exhaust": "",
         "hotend": "heater_fan hotend_fan",
         "names": {
-          "fan": "Part Cooling Fan",
+          "fan": "Part cooling fan",
           "fan_generic Exhaust": "Exhaust",
           "fan_generic Nevermore": "Nevermore"
         },
@@ -235,7 +235,7 @@
           "nozzle_temp_max": 240,
           "nozzle_temp_min": 190,
           "product_name": "PLA",
-          "remaining_weight_g": 573.4547729492188,
+          "remaining_weight_g": 556.3826904296875,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 841.0
@@ -257,7 +257,8 @@
             "fan",
             "heater_fan hotend_fan",
             "controller_fan Controller",
-            "fan_generic Nevermore"
+            "fan_generic Nevermore",
+            "fan_generic Exhaust"
           ],
           "filament_sensors": [],
           "heaters": [
@@ -279,11 +280,11 @@
             "tmc5160 stepper_z3",
             "temperature_sensor beacon_coil",
             "temperature_sensor Chamber",
-            "temperature_sensor RPi4B",
+            "temperature_sensor Raspberry_Pi_4",
             "temperature_sensor BTT_KRAKEN",
-            "temperature_sensor EBBCan"
+            "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-09-14T15:05:09Z"
+          "timestamp": "2026-09-14T19:07:58Z"
         },
         "optional": []
       },
@@ -346,7 +347,7 @@
         "selected_strips": [
           "led Chamber"
         ],
-        "startup_brightness": 10,
+        "startup_brightness": 100,
         "strip": "led Chamber"
       },
       "macros": {
@@ -928,7 +929,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.1342618465423584
+        "heat_rate": 0.7460647821426392
       },
       "heater_bed": {
         "heat_rate": 4.320165157318115
