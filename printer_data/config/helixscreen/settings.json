@@ -98,42 +98,6 @@
       },
       {
         "phases": {
-          "7": 103
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789317067,
-        "total": 150,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 66
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789319077,
-        "total": 168,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 119
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789319991,
-        "total": 200,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 123
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789322293,
-        "total": 218,
-        "window": 1
-      },
-      {
-        "phases": {
           "7": 95
         },
         "temp_bucket": 2,
@@ -185,6 +149,42 @@
         "timestamp": 1789406804,
         "total": 185,
         "window": 1
+      },
+      {
+        "phases": {
+          "7": 128
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789659909,
+        "total": 166,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 137
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789662091,
+        "total": 250,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 66
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789663862,
+        "total": 272,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 78
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789666875,
+        "total": 220,
+        "window": 1
       }
     ]
   },
@@ -227,18 +227,18 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 55,
-          "brand": "Generic",
-          "catalog_id": "generic-pla",
-          "color_rgb": 4868682,
-          "material": "PLA",
-          "nozzle_temp_max": 240,
-          "nozzle_temp_min": 190,
-          "product_name": "PLA",
-          "remaining_weight_g": 556.3826904296875,
+          "bed_temp": 90,
+          "brand": "FormFutura",
+          "catalog_id": "formfutura-reform-titan",
+          "color_rgb": 1710618,
+          "material": "ABS",
+          "nozzle_temp_max": 260,
+          "nozzle_temp_min": 240,
+          "product_name": "ReForm - Titan",
+          "remaining_weight_g": 955.210693359375,
           "spool_name": "",
           "spoolman_id": 0,
-          "total_weight_g": 841.0
+          "total_weight_g": 1000.0
         }
       },
       "filament_sensors": {},
@@ -250,7 +250,8 @@
           "heater_fan hotend_fan",
           "led Chamber",
           "controller_fan Controller",
-          "controller_fan TMC_Driver"
+          "controller_fan TMC_Driver",
+          "fan_generic Exhaust"
         ],
         "last_snapshot": {
           "fans": [
@@ -284,7 +285,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-09-14T19:12:37Z"
+          "timestamp": "2026-09-17T14:09:35Z"
         },
         "optional": []
       },
@@ -929,10 +930,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.7460647821426392
+        "heat_rate": 0.4367640018463135
       },
       "heater_bed": {
-        "heat_rate": 4.320165157318115
+        "heat_rate": 13.627459526062012
       }
     }
   },
