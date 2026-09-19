@@ -98,24 +98,6 @@
       },
       {
         "phases": {
-          "7": 95
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789381361,
-        "total": 199,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 166
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789383126,
-        "total": 263,
-        "window": 1
-      },
-      {
-        "phases": {
           "7": 148
         },
         "temp_bucket": 2,
@@ -185,6 +167,24 @@
         "timestamp": 1789666875,
         "total": 220,
         "window": 1
+      },
+      {
+        "phases": {
+          "7": 95
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789814949,
+        "total": 256,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 81
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789815990,
+        "total": 235,
+        "window": 1
       }
     ]
   },
@@ -235,7 +235,7 @@
           "nozzle_temp_max": 260,
           "nozzle_temp_min": 240,
           "product_name": "ReForm - Titan",
-          "remaining_weight_g": 955.210693359375,
+          "remaining_weight_g": 950.7905883789063,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -285,7 +285,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-09-17T14:09:35Z"
+          "timestamp": "2026-09-19T10:08:16Z"
         },
         "optional": []
       },
@@ -930,7 +930,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.4367640018463135
+        "heat_rate": 0.8339614868164063
       },
       "heater_bed": {
         "heat_rate": 13.627459526062012
