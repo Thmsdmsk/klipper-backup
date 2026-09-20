@@ -98,51 +98,6 @@
       },
       {
         "phases": {
-          "7": 148
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789383981,
-        "total": 250,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 70
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789388922,
-        "total": 169,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 57
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789399873,
-        "total": 148,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 82
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789406804,
-        "total": 185,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 128
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789659909,
-        "total": 166,
-        "window": 1
-      },
-      {
-        "phases": {
           "7": 137
         },
         "temp_bucket": 2,
@@ -184,6 +139,51 @@
         "temp_bucket": 2,
         "timestamp": 1789815990,
         "total": 235,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 95
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789834074,
+        "total": 282,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 54
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789834923,
+        "total": 209,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 65
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789836230,
+        "total": 269,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 43
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789838904,
+        "total": 138,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 56
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789842245,
+        "total": 153,
         "window": 1
       }
     ]
@@ -235,7 +235,7 @@
           "nozzle_temp_max": 260,
           "nozzle_temp_min": 240,
           "product_name": "ReForm - Titan",
-          "remaining_weight_g": 950.7905883789063,
+          "remaining_weight_g": 922.6488037109375,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -285,7 +285,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-09-19T10:08:16Z"
+          "timestamp": "2026-09-19T18:18:44Z"
         },
         "optional": []
       },
@@ -930,7 +930,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.8339614868164063
+        "heat_rate": 0.5135257244110107
       },
       "heater_bed": {
         "heat_rate": 13.627459526062012
