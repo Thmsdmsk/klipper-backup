@@ -46,7 +46,7 @@
     "touch_device": ""
   },
   "language": "en",
-  "log_level": "debug",
+  "log_level": "warn",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 2
@@ -285,7 +285,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-09-21T18:19:18Z"
+          "timestamp": "2026-09-21T18:53:47Z"
         },
         "optional": []
       },
@@ -923,7 +923,7 @@
     "show_printer_switcher": false
   },
   "sounds_enabled": false,
-  "telemetry_enabled": true,
+  "telemetry_enabled": false,
   "theme": {
     "preset": 0
   },
