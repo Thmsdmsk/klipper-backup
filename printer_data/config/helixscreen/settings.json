@@ -55,6 +55,69 @@
     "entries": [
       {
         "phases": {
+          "7": 65
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789836230,
+        "total": 269,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 43
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789838904,
+        "total": 138,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 56
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789842245,
+        "total": 153,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 68
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789900194,
+        "total": 220,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 47
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789910937,
+        "total": 241,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 60
+        },
+        "temp_bucket": 2,
+        "timestamp": 1789916145,
+        "total": 261,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 51
+        },
+        "temp_bucket": 2,
+        "timestamp": 1790076604,
+        "total": 179,
+        "window": 1
+      },
+      {
+        "phases": {
           "7": 70
         },
         "temp_bucket": 1,
@@ -117,74 +180,11 @@
       },
       {
         "phases": {
-          "7": 54
+          "7": 53
         },
-        "temp_bucket": 2,
-        "timestamp": 1789834923,
-        "total": 209,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 65
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789836230,
-        "total": 269,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 43
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789838904,
-        "total": 138,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 56
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789842245,
-        "total": 153,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 68
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789900194,
-        "total": 220,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 47
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789910937,
-        "total": 241,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 60
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789916145,
-        "total": 261,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 51
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790076604,
-        "total": 179,
+        "temp_bucket": 1,
+        "timestamp": 1790338322,
+        "total": 146,
         "window": 1
       }
     ]
@@ -236,7 +236,7 @@
           "nozzle_temp_max": 230,
           "nozzle_temp_min": 200,
           "product_name": "TPU-85A",
-          "remaining_weight_g": 984.4544067382813,
+          "remaining_weight_g": 977.9598999023438,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -286,7 +286,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-09-22T18:40:52Z"
+          "timestamp": "2026-09-25T11:57:33Z"
         },
         "optional": []
       },
@@ -931,7 +931,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.42951515316963196
+        "heat_rate": 0.3468065559864044
       },
       "heater_bed": {
         "heat_rate": 13.627459526062012
