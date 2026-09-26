@@ -286,7 +286,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-09-25T11:57:33Z"
+          "timestamp": "2026-09-25T20:39:22Z"
         },
         "optional": []
       },
@@ -759,6 +759,22 @@
                   "colspan": 2,
                   "enabled": false,
                   "id": "print_stats",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "active_spool",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "camera",
                   "row": -1,
                   "rowspan": 2
                 }
