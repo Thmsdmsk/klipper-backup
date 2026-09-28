@@ -100,51 +100,6 @@
       },
       {
         "phases": {
-          "7": 56
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789842245,
-        "total": 153,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 68
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789900194,
-        "total": 220,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 47
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789910937,
-        "total": 241,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 60
-        },
-        "temp_bucket": 2,
-        "timestamp": 1789916145,
-        "total": 261,
-        "window": 1
-      },
-      {
-        "phases": {
-          "7": 51
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790076604,
-        "total": 179,
-        "window": 1
-      },
-      {
-        "phases": {
           "7": 54
         },
         "temp_bucket": 2,
@@ -186,6 +141,51 @@
         "temp_bucket": 2,
         "timestamp": 1790535161,
         "total": 321,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 163
+        },
+        "temp_bucket": 2,
+        "timestamp": 1790592739,
+        "total": 257,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 102
+        },
+        "temp_bucket": 2,
+        "timestamp": 1790593984,
+        "total": 210,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 128
+        },
+        "temp_bucket": 2,
+        "timestamp": 1790600211,
+        "total": 224,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 63
+        },
+        "temp_bucket": 2,
+        "timestamp": 1790607106,
+        "total": 169,
+        "window": 1
+      },
+      {
+        "phases": {
+          "7": 76
+        },
+        "temp_bucket": 2,
+        "timestamp": 1790615181,
+        "total": 187,
         "window": 1
       }
     ]
@@ -237,7 +237,7 @@
           "nozzle_temp_max": 300,
           "nozzle_temp_min": 270,
           "product_name": "PC-CF",
-          "remaining_weight_g": 881.5257568359375,
+          "remaining_weight_g": 799.0631103515625,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -287,7 +287,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-09-27T17:51:44Z"
+          "timestamp": "2026-09-28T09:11:55Z"
         },
         "optional": []
       },
@@ -838,10 +838,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6124386191368103
+        "heat_rate": 0.3789852261543274
       },
       "heater_bed": {
-        "heat_rate": 6.016279220581055
+        "heat_rate": 4.793028354644775
       }
     }
   },
