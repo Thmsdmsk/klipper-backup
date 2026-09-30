@@ -289,7 +289,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-09-29T16:12:38Z"
+          "timestamp": "2026-09-29T19:32:24Z"
         },
         "optional": []
       },
@@ -346,7 +346,7 @@
           "#FF4081"
         ],
         "last_brightness": 100,
-        "last_color": "#000040",
+        "last_color": "#000000",
         "last_white": 1.0,
         "led_on_at_start": true,
         "light_button_pending": null,
@@ -438,8 +438,8 @@
               "id": "main",
               "widgets": [
                 {
-                  "col": 5,
-                  "colspan": 7,
+                  "col": 7,
+                  "colspan": 5,
                   "enabled": true,
                   "id": "printer_image",
                   "row": 1,
@@ -754,6 +754,14 @@
                   "id": "camera",
                   "row": -1,
                   "rowspan": 4
+                },
+                {
+                  "col": 0,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "fan_stack:1",
+                  "row": 0,
+                  "rowspan": 2
                 }
               ]
             },
@@ -814,7 +822,7 @@
         }
       },
       "printer_image": "shipped:voron-v2",
-      "printer_name": "v2",
+      "printer_name": "My Printer",
       "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
