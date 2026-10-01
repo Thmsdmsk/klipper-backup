@@ -289,7 +289,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-01T13:55:27Z"
+          "timestamp": "2026-10-01T14:12:16Z"
         },
         "optional": []
       },
@@ -345,7 +345,7 @@
           "#9C27B0",
           "#FF4081"
         ],
-        "last_brightness": 10,
+        "last_brightness": 100,
         "last_color": "#000000",
         "last_white": 1.0,
         "led_on_at_start": true,
