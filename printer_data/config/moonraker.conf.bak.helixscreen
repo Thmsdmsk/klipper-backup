@@ -73,7 +73,7 @@ managed_services: klipper
 
 [update_manager helixscreen]
 type: web
-channel: beta
+channel: stable
 repo: prestonbrown/helixscreen
 path: /home/thomas/helixscreen
 
