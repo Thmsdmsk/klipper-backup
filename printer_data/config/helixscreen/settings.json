@@ -289,7 +289,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-03T13:50:14Z"
+          "timestamp": "2026-10-03T19:03:10Z"
         },
         "optional": []
       },
@@ -361,12 +361,10 @@
       "macros": {
         "hidden": [
           "AXES_MAP_CALIBRATION",
-          "AXES_SHAPER_CALIBRATION",
           "BEACON_AUTO_CALIBRATE_CONTACT",
           "BEACON_MODELS",
           "CANCEL_PRINT",
           "COMPARE_BELTS_RESPONSES",
-          "CREATE_VIBRATIONS_PROFILE",
           "EXCITATE_AXIS_AT_FREQ",
           "FAN_STOPPAGE_ROUTINE",
           "G32",
@@ -529,19 +527,19 @@
                   "rowspan": 2
                 },
                 {
-                  "col": -1,
+                  "col": 2,
                   "colspan": 2,
-                  "enabled": false,
+                  "enabled": true,
                   "id": "macros",
-                  "row": -1,
-                  "rowspan": 2
+                  "row": 5,
+                  "rowspan": 3
                 },
                 {
-                  "col": -1,
+                  "col": 2,
                   "colspan": 2,
-                  "enabled": false,
+                  "enabled": true,
                   "id": "gcode_console",
-                  "row": -1,
+                  "row": 0,
                   "rowspan": 2
                 },
                 {
