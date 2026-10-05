@@ -3,19 +3,19 @@
   "border_radius_size": 5,
   "border_width": 0,
   "dark": {
-    "border": "#A02030",
-    "card_bg": "#3D0000",
+    "border": "#D7D7D7",
+    "card_bg": "#8A242D",
     "danger": "#D94848",
     "elevated_bg": "#A02030",
-    "focus": "#3A7CC8",
+    "focus": "#A02030",
     "info": "#3A7CC8",
     "overlay_bg": "#A02030",
-    "primary": "#FFFFFF",
-    "screen_bg": "#460000",
-    "secondary": "#FFFFFF",
+    "primary": "#E5E5E5",
+    "screen_bg": "#151515",
+    "secondary": "#E5E5E5",
     "success": "#5CB85C",
-    "tertiary": "#FFFFFF",
-    "text": "#E8E8EC",
+    "tertiary": "#000000",
+    "text": "#FFFFFF",
     "text_muted": "#B8B8C0",
     "text_subtle": "#787882",
     "warning": "#E8A83A"
@@ -40,8 +40,8 @@
     "text_subtle": "#6A6A74",
     "warning": "#C87A12"
   },
-  "name": "HelixScreen Copy",
-  "shadow_intensity": 50,
+  "name": "Voron",
+  "shadow_intensity": 0,
   "shadow_offset_y": 2,
   "shadow_opa": 0
 }
