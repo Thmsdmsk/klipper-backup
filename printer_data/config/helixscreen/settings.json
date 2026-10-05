@@ -101,15 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 163
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790592739,
-        "total": 257,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 102
         },
         "temp_bucket": 2,
@@ -189,6 +180,16 @@
         "timestamp": 1790701928,
         "total": 241,
         "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 58,
+          "SOAKING": 9
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791132025,
+        "total": 177,
+        "window": 1
       }
     ]
   },
@@ -239,7 +240,7 @@
           "nozzle_temp_max": 300,
           "nozzle_temp_min": 270,
           "product_name": "PC-CF",
-          "remaining_weight_g": 599.0225219726563,
+          "remaining_weight_g": 577.6116333007813,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -289,7 +290,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-04T15:50:01Z"
+          "timestamp": "2026-10-04T16:28:17Z"
         },
         "optional": []
       },
@@ -840,7 +841,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.5904947519302368
+        "heat_rate": 0.3925407826900482
       },
       "heater_bed": {
         "heat_rate": 7.04074764251709
