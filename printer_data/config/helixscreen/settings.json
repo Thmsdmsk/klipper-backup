@@ -290,7 +290,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-05T19:18:28Z"
+          "timestamp": "2026-10-05T19:55:17Z"
         },
         "optional": []
       },
@@ -715,6 +715,46 @@
                   "colspan": 2,
                   "enabled": true,
                   "id": "gcode_console",
+                  "row": 6,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "shutdown",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "firmware_restart",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "led_controls",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "active_spool",
+                  "row": -1,
+                  "rowspan": 2
+                },
+                {
+                  "col": 4,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "notifications",
                   "row": 6,
                   "rowspan": 2
                 }
