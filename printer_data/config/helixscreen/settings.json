@@ -20,7 +20,7 @@
     "screensaver_type": 0,
     "sleep_sec": 60,
     "speed_flow_physical_units": true,
-    "theme": "helixscreen",
+    "theme": "voron",
     "time_format": 1,
     "timezone": "Europe/Berlin"
   },
@@ -101,42 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 102
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790593984,
-        "total": 210,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 128
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790600211,
-        "total": 224,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 63
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790607106,
-        "total": 169,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 76
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790615181,
-        "total": 187,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 119
         },
         "temp_bucket": 2,
@@ -190,6 +154,44 @@
         "timestamp": 1791132025,
         "total": 177,
         "window": 1
+      },
+      {
+        "phases": {
+          "SOAKING": 89
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791285397,
+        "total": 159,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 57,
+          "SOAKING": 8
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791288937,
+        "total": 181,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 59,
+          "SOAKING": 6
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791293589,
+        "total": 148,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 57
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791295922,
+        "total": 167,
+        "window": 1
       }
     ]
   },
@@ -240,7 +242,7 @@
           "nozzle_temp_max": 300,
           "nozzle_temp_min": 270,
           "product_name": "PC-CF",
-          "remaining_weight_g": 577.6116333007813,
+          "remaining_weight_g": 535.19970703125,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -290,7 +292,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-05T21:46:26Z"
+          "timestamp": "2026-10-06T14:47:31Z"
         },
         "optional": []
       },
@@ -757,6 +759,14 @@
                   "id": "notifications",
                   "row": 6,
                   "rowspan": 2
+                },
+                {
+                  "col": 2,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "fan_stack:1",
+                  "row": 0,
+                  "rowspan": 3
                 }
               ]
             },
@@ -837,7 +847,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3925407826900482
+        "heat_rate": 0.3113288879394531
       },
       "heater_bed": {
         "heat_rate": 7.04074764251709
