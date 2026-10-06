@@ -11,14 +11,14 @@
     "animations_enabled": true,
     "bed_mesh_render_mode": 0,
     "dim_brightness": 30,
-    "dim_sec": 0,
+    "dim_sec": 120,
     "drm_device": "",
     "gcode_render_mode": 2,
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "page_scroll_buttons": false,
     "screensaver_type": 0,
-    "sleep_sec": 60,
+    "sleep_sec": 300,
     "speed_flow_physical_units": true,
     "theme": "voron",
     "time_format": 1,
@@ -101,24 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 119
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790675752,
-        "total": 212,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 79
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790676836,
-        "total": 185,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 65
         },
         "temp_bucket": 2,
@@ -192,6 +174,26 @@
         "timestamp": 1791295922,
         "total": 167,
         "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 128,
+          "SOAKING": 8
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791298573,
+        "total": 255,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 56,
+          "SOAKING": 9
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791306560,
+        "total": 162,
+        "window": 1
       }
     ]
   },
@@ -242,7 +244,7 @@
           "nozzle_temp_max": 300,
           "nozzle_temp_min": 270,
           "product_name": "PC-CF",
-          "remaining_weight_g": 535.19970703125,
+          "remaining_weight_g": 513.5406494140625,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -292,7 +294,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-06T14:47:31Z"
+          "timestamp": "2026-10-06T17:04:59Z"
         },
         "optional": []
       },
@@ -437,19 +439,11 @@
         "home": {
           "grid": "12x8",
           "main_page_index": 0,
-          "next_page_id": 9,
+          "next_page_id": 10,
           "pages": [
             {
               "id": "main",
               "widgets": [
-                {
-                  "col": 4,
-                  "colspan": 7,
-                  "enabled": true,
-                  "id": "printer_image",
-                  "row": 0,
-                  "rowspan": 6
-                },
                 {
                   "col": -1,
                   "colspan": 8,
@@ -478,16 +472,8 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
-                  "colspan": 2,
-                  "enabled": true,
-                  "id": "temperature",
-                  "row": 0,
-                  "rowspan": 2
-                },
-                {
-                  "col": 0,
-                  "colspan": 2,
+                  "col": 7,
+                  "colspan": 3,
                   "enabled": true,
                   "id": "bed_temperature",
                   "row": 2,
@@ -529,8 +515,8 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
-                  "colspan": 2,
+                  "col": 7,
+                  "colspan": 3,
                   "enabled": true,
                   "id": "chamber_temperature",
                   "row": 4,
@@ -761,12 +747,28 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 2,
+                  "col": 10,
                   "colspan": 2,
                   "enabled": true,
                   "id": "fan_stack:1",
+                  "row": 1,
+                  "rowspan": 4
+                },
+                {
+                  "col": 7,
+                  "colspan": 3,
+                  "enabled": true,
+                  "id": "temperature",
                   "row": 0,
-                  "rowspan": 3
+                  "rowspan": 2
+                },
+                {
+                  "col": 0,
+                  "colspan": 7,
+                  "enabled": true,
+                  "id": "printer_image",
+                  "row": 0,
+                  "rowspan": 6
                 }
               ]
             },
@@ -847,10 +849,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3113288879394531
+        "heat_rate": 0.30831679701805115
       },
       "heater_bed": {
-        "heat_rate": 7.04074764251709
+        "heat_rate": 4.945038795471191
       }
     }
   },
