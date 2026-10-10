@@ -5,7 +5,7 @@
   },
   "brightness": 100,
   "completion_alert": 2,
-  "config_version": 26,
+  "config_version": 27,
   "dark_mode": true,
   "display": {
     "animations_enabled": true,
@@ -101,25 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 65
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790695827,
-        "total": 172,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 65,
-          "SOAKING": 6
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790699378,
-        "total": 176,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 124
         },
         "temp_bucket": 2,
@@ -194,6 +175,25 @@
         "timestamp": 1791306560,
         "total": 162,
         "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 53,
+          "SOAKING": 8
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791386933,
+        "total": 169,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 125
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791396812,
+        "total": 368,
+        "window": 1
       }
     ]
   },
@@ -244,7 +244,7 @@
           "nozzle_temp_max": 300,
           "nozzle_temp_min": 270,
           "product_name": "PC-CF",
-          "remaining_weight_g": 513.5406494140625,
+          "remaining_weight_g": 494.6697692871094,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -294,7 +294,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-06T18:55:39Z"
+          "timestamp": "2026-10-07T18:58:51Z"
         },
         "optional": []
       },
@@ -351,8 +351,8 @@
           "#FF4081"
         ],
         "last_brightness": 100,
-        "last_color": "#000000",
-        "last_white": 1.0,
+        "last_color": "#FF4444",
+        "last_white": 0.0,
         "led_on_at_start": true,
         "light_button_pending": null,
         "macro_devices": [],
@@ -472,8 +472,8 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 7,
-                  "colspan": 3,
+                  "col": 0,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "bed_temperature",
                   "row": 2,
@@ -515,8 +515,8 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 7,
-                  "colspan": 3,
+                  "col": 0,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "chamber_temperature",
                   "row": 4,
@@ -751,19 +751,19 @@
                   "colspan": 2,
                   "enabled": true,
                   "id": "fan_stack:1",
-                  "row": 1,
-                  "rowspan": 4
+                  "row": 2,
+                  "rowspan": 3
                 },
                 {
-                  "col": 7,
-                  "colspan": 3,
+                  "col": 0,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "temperature",
                   "row": 0,
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
+                  "col": 3,
                   "colspan": 7,
                   "enabled": true,
                   "id": "printer_image",
@@ -828,7 +828,7 @@
           ]
         }
       },
-      "printer_image": "shipped:voron-v2",
+      "printer_image": "",
       "printer_name": "Voron",
       "probe_sensors": {},
       "temp_sensors": {
@@ -849,10 +849,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.30831679701805115
+        "heat_rate": 0.4849153459072113
       },
       "heater_bed": {
-        "heat_rate": 4.945038795471191
+        "heat_rate": 6.8702802658081055
       }
     }
   },
