@@ -1,1 +1,14 @@
-[]
+{
+  "filaments": [
+    {
+      "bed": 100,
+      "brand": "PWS",
+      "id": "pws-abs",
+      "name": "ABS",
+      "nozzle_max": 270,
+      "nozzle_min": 225,
+      "source": "user",
+      "type": "ABS"
+    }
+  ]
+}
