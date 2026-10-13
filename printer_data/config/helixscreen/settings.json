@@ -101,71 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 79,
-          "HOMING": 87,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791645032,
-        "total": 276,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 63,
-          "HOMING": 61,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791647834,
-        "total": 192,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 130,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791649371,
-        "total": 200,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 89,
-          "HOMING": 35,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791650458,
-        "total": 188,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 52,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791652841,
-        "total": 124,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 64,
-          "HOMING": 29,
-          "QGL": 7,
-          "SOAKING": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791653505,
-        "total": 160,
-        "window": 1
-      },
-      {
-        "phases": {
           "QGL": 128
         },
         "temp_bucket": 2,
@@ -207,6 +142,75 @@
         "temp_bucket": 2,
         "timestamp": 1791662994,
         "total": 392,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 57,
+          "QGL": 7,
+          "SOAKING": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791802034,
+        "total": 150,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 101,
+          "HOMING": 63,
+          "QGL": 7
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791809125,
+        "total": 226,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 81,
+          "HOMING": 35,
+          "QGL": 7
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791822931,
+        "total": 177,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 85,
+          "HOMING": 42,
+          "QGL": 7,
+          "SOAKING": 276
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791825017,
+        "total": 468,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 114,
+          "HOMING": 26,
+          "QGL": 7,
+          "SOAKING": 2
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791834024,
+        "total": 201,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 121,
+          "HOMING": 40,
+          "QGL": 7,
+          "SOAKING": 2
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791835707,
+        "total": 281,
         "window": 1
       }
     ]
@@ -258,7 +262,7 @@
           "nozzle_temp_max": 270,
           "nozzle_temp_min": 225,
           "product_name": "ABS",
-          "remaining_weight_g": 411.8028564453125,
+          "remaining_weight_g": 281.1773986816406,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -308,7 +312,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-10T19:09:16Z"
+          "timestamp": "2026-10-12T20:42:43Z"
         },
         "optional": []
       },
@@ -663,10 +667,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3237505853176117
+        "heat_rate": 0.3474116623401642
       },
       "heater_bed": {
-        "heat_rate": 9.522479057312012
+        "heat_rate": 8.66574478149414
       }
     }
   },
