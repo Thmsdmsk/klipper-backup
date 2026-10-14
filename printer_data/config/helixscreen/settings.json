@@ -101,18 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 85,
-          "HOMING": 42,
-          "QGL": 7,
-          "SOAKING": 276
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791825017,
-        "total": 468,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 114,
           "HOMING": 26,
           "QGL": 7,
@@ -213,6 +201,18 @@
         "timestamp": 1791911223,
         "total": 224,
         "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 58,
+          "HOMING": 48,
+          "QGL": 7,
+          "SOAKING": 2
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791973653,
+        "total": 200,
+        "window": 1
       }
     ]
   },
@@ -263,7 +263,7 @@
           "nozzle_temp_max": 270,
           "nozzle_temp_min": 225,
           "product_name": "ABS",
-          "remaining_weight_g": 91.6617431640625,
+          "remaining_weight_g": 7.514015197753906,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -313,7 +313,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-13T09:34:53Z"
+          "timestamp": "2026-10-14T09:36:23Z"
         },
         "optional": []
       },
@@ -499,7 +499,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 6,
+                  "col": 4,
                   "colspan": 2,
                   "enabled": true,
                   "id": "macros",
@@ -542,7 +542,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 8,
+                  "col": 6,
                   "colspan": 2,
                   "enabled": true,
                   "id": "motion",
@@ -550,7 +550,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 10,
+                  "col": 8,
                   "colspan": 2,
                   "enabled": true,
                   "id": "gcode_console",
@@ -558,7 +558,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 4,
+                  "col": 10,
                   "colspan": 2,
                   "enabled": true,
                   "id": "notifications",
@@ -627,14 +627,6 @@
                   "rowspan": 2
                 },
                 {
-                  "col": -1,
-                  "colspan": 2,
-                  "enabled": false,
-                  "id": "notifications",
-                  "row": -1,
-                  "rowspan": 2
-                },
-                {
                   "col": 0,
                   "colspan": 4,
                   "enabled": true,
@@ -668,10 +660,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.2953636348247528
+        "heat_rate": 0.3088040053844452
       },
       "heater_bed": {
-        "heat_rate": 11.636009216308594
+        "heat_rate": 16.95907974243164
       }
     }
   },
