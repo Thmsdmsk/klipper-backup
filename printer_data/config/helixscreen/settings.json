@@ -101,18 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 78,
-          "HOMING": 6,
-          "QGL": 7,
-          "SOAKING": 418
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791899776,
-        "total": 810,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 87,
           "QGL": 7
         },
@@ -207,6 +195,18 @@
         "temp_bucket": 2,
         "timestamp": 1792178371,
         "total": 153,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 58,
+          "HOMING": 39,
+          "QGL": 7,
+          "SOAKING": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792227516,
+        "total": 166,
         "window": 1
       }
     ]
@@ -310,7 +310,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-16T20:57:09Z"
+          "timestamp": "2026-10-17T08:15:35Z"
         },
         "optional": []
       },
@@ -480,8 +480,8 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
-                  "colspan": 2,
+                  "col": 9,
+                  "colspan": 3,
                   "enabled": true,
                   "id": "bed_temperature",
                   "row": 2,
@@ -515,8 +515,8 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
-                  "colspan": 2,
+                  "col": 9,
+                  "colspan": 3,
                   "enabled": true,
                   "id": "chamber_temperature",
                   "row": 4,
@@ -563,23 +563,15 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 10,
-                  "colspan": 2,
-                  "enabled": true,
-                  "id": "fan_stack:1",
-                  "row": 1,
-                  "rowspan": 4
-                },
-                {
-                  "col": 0,
-                  "colspan": 2,
+                  "col": 9,
+                  "colspan": 3,
                   "enabled": true,
                   "id": "temperature",
                   "row": 0,
                   "rowspan": 2
                 },
                 {
-                  "col": 3,
+                  "col": 2,
                   "colspan": 7,
                   "enabled": true,
                   "id": "printer_image",
@@ -630,6 +622,14 @@
                   "id": "active_spool",
                   "row": 6,
                   "rowspan": 2
+                },
+                {
+                  "col": 6,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "fan_stack:1",
+                  "row": 1,
+                  "rowspan": 4
                 }
               ]
             }
@@ -657,7 +657,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.2918851375579834
+        "heat_rate": 0.30186083912849426
       },
       "heater_bed": {
         "heat_rate": 8.270305633544922
