@@ -5,7 +5,7 @@
   },
   "brightness": 100,
   "completion_alert": 2,
-  "config_version": 27,
+  "config_version": 28,
   "dark_mode": true,
   "display": {
     "animations_enabled": true,
@@ -17,10 +17,10 @@
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "page_scroll_buttons": false,
-    "screensaver_type": 0,
+    "screensaver_type": "off",
     "sleep_sec": 300,
     "speed_flow_physical_units": true,
-    "theme": "voron",
+    "theme": "helixscreen",
     "time_format": 1,
     "timezone": "Europe/Berlin"
   },
@@ -101,87 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 114,
-          "HOMING": 26,
-          "QGL": 7,
-          "SOAKING": 2
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791834024,
-        "total": 201,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 121,
-          "HOMING": 40,
-          "QGL": 7,
-          "SOAKING": 2
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791835707,
-        "total": 281,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 60,
-          "HOMING": 61,
-          "QGL": 7,
-          "SOAKING": 405
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791886849,
-        "total": 619,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 64,
-          "HOMING": 6,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791890187,
-        "total": 402,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 63,
-          "HOMING": 40,
-          "QGL": 7,
-          "SOAKING": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791892799,
-        "total": 200,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 138,
-          "HOMING": 38,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791894104,
-        "total": 362,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 55,
-          "HOMING": 125,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791896258,
-        "total": 245,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 78,
           "HOMING": 6,
           "QGL": 7,
@@ -212,6 +131,82 @@
         "temp_bucket": 2,
         "timestamp": 1791973653,
         "total": 200,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 91,
+          "HOMING": 37,
+          "QGL": 7,
+          "SOAKING": 2
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792168495,
+        "total": 182,
+        "window": 1
+      },
+      {
+        "phases": {
+          "QGL": 54
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792169506,
+        "total": 146,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 75,
+          "HOMING": 49,
+          "QGL": 7
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792171789,
+        "total": 185,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 133,
+          "HOMING": 41,
+          "QGL": 7
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792174407,
+        "total": 238,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 89,
+          "HOMING": 37,
+          "QGL": 7
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792175968,
+        "total": 190,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 59,
+          "HOMING": 39,
+          "QGL": 7
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792177154,
+        "total": 159,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 53,
+          "HOMING": 37,
+          "QGL": 7
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792178371,
+        "total": 153,
         "window": 1
       }
     ]
@@ -246,9 +241,11 @@
         "exhaust": "",
         "hotend": "heater_fan hotend_fan",
         "names": {
-          "fan": "Part cooling fan",
-          "fan_generic Exhaust": "Exhaust",
-          "fan_generic Nevermore": "Nevermore"
+          "controller_fan Controller": "Contreoller Fan",
+          "fan": "Part Cooling Fan",
+          "fan_generic Exhaust": "Exhaust Fan",
+          "fan_generic Nevermore": "Nevermore Fan",
+          "heater_fan hotend_fan": "Hotend Fan"
         },
         "part": "fan"
       },
@@ -263,7 +260,7 @@
           "nozzle_temp_max": 270,
           "nozzle_temp_min": 225,
           "product_name": "ABS",
-          "remaining_weight_g": 7.514015197753906,
+          "remaining_weight_g": 0.0170401930809021,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -313,7 +310,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-14T18:46:54Z"
+          "timestamp": "2026-10-16T20:57:09Z"
         },
         "optional": []
       },
@@ -370,8 +367,8 @@
           "#FF4081"
         ],
         "last_brightness": 100,
-        "last_color": "#FF4444",
-        "last_white": 0.0,
+        "last_color": "#000000",
+        "last_white": 1.0,
         "led_on_at_start": true,
         "light_button_pending": null,
         "macro_devices": [],
@@ -499,7 +496,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 4,
+                  "col": 6,
                   "colspan": 2,
                   "enabled": true,
                   "id": "macros",
@@ -527,7 +524,7 @@
                 },
                 {
                   "col": 0,
-                  "colspan": 4,
+                  "colspan": 6,
                   "config": {
                     "layout_style": "library",
                     "show_job_queue": false,
@@ -542,7 +539,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 6,
+                  "col": 8,
                   "colspan": 2,
                   "enabled": true,
                   "id": "motion",
@@ -550,7 +547,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 8,
+                  "col": 10,
                   "colspan": 2,
                   "enabled": true,
                   "id": "gcode_console",
@@ -558,11 +555,11 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 10,
+                  "col": -1,
                   "colspan": 2,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "notifications",
-                  "row": 6,
+                  "row": -1,
                   "rowspan": 2
                 },
                 {
@@ -570,8 +567,8 @@
                   "colspan": 2,
                   "enabled": true,
                   "id": "fan_stack:1",
-                  "row": 2,
-                  "rowspan": 3
+                  "row": 1,
+                  "rowspan": 4
                 },
                 {
                   "col": 0,
@@ -660,10 +657,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3088040053844452
+        "heat_rate": 0.2918851375579834
       },
       "heater_bed": {
-        "heat_rate": 16.95907974243164
+        "heat_rate": 8.270305633544922
       }
     }
   },
