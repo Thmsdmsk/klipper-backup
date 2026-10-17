@@ -101,16 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 87,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791911223,
-        "total": 224,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 58,
           "HOMING": 48,
           "QGL": 7,
@@ -207,6 +197,16 @@
         "temp_bucket": 2,
         "timestamp": 1792227516,
         "total": 166,
+        "window": 1
+      },
+      {
+        "phases": {
+          "QGL": 58,
+          "SOAKING": 2
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792256299,
+        "total": 134,
         "window": 1
       }
     ]
@@ -310,7 +310,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-17T08:15:35Z"
+          "timestamp": "2026-10-17T16:22:46Z"
         },
         "optional": []
       },
@@ -657,7 +657,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.30186083912849426
+        "heat_rate": 0.2805784344673157
       },
       "heater_bed": {
         "heat_rate": 8.270305633544922
