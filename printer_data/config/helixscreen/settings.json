@@ -101,39 +101,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 58,
-          "HOMING": 48,
-          "QGL": 7,
-          "SOAKING": 2
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791973653,
-        "total": 200,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 91,
-          "HOMING": 37,
-          "QGL": 7,
-          "SOAKING": 2
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792168495,
-        "total": 182,
-        "window": 1
-      },
-      {
-        "phases": {
-          "QGL": 54
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792169506,
-        "total": 146,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 75,
           "HOMING": 49,
           "QGL": 7
@@ -207,6 +174,37 @@
         "temp_bucket": 2,
         "timestamp": 1792256299,
         "total": 134,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 135,
+          "QGL": 7
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792313082,
+        "total": 172,
+        "window": 1
+      },
+      {
+        "phases": {
+          "QGL": 79,
+          "SOAKING": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792321445,
+        "total": 159,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 55,
+          "HOMING": 53,
+          "QGL": 7
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792337008,
+        "total": 158,
         "window": 1
       }
     ]
@@ -310,7 +308,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-17T16:22:46Z"
+          "timestamp": "2026-10-17T18:38:35Z"
         },
         "optional": []
       },
@@ -577,6 +575,14 @@
                   "id": "printer_image",
                   "row": 0,
                   "rowspan": 6
+                },
+                {
+                  "col": 0,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "fan_stack:1",
+                  "row": 1,
+                  "rowspan": 4
                 }
               ]
             },
@@ -622,14 +628,6 @@
                   "id": "active_spool",
                   "row": 6,
                   "rowspan": 2
-                },
-                {
-                  "col": 6,
-                  "colspan": 2,
-                  "enabled": true,
-                  "id": "fan_stack:1",
-                  "row": 1,
-                  "rowspan": 4
                 }
               ]
             }
@@ -657,7 +655,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.2805784344673157
+        "heat_rate": 0.27518680691719055
       },
       "heater_bed": {
         "heat_rate": 8.270305633544922
