@@ -50,7 +50,7 @@
   "log_level": "warn",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 2
+    "jog_mode": 0
   },
   "print_start_history": {
     "entries": [
@@ -308,7 +308,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-21T10:49:58Z"
+          "timestamp": "2026-10-21T13:14:36Z"
         },
         "optional": []
       },
