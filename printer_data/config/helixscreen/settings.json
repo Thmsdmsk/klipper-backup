@@ -4,7 +4,7 @@
     "show_widget_labels": true
   },
   "brightness": 100,
-  "completion_alert": 2,
+  "completion_alert": 0,
   "config_version": 28,
   "dark_mode": true,
   "display": {
@@ -51,6 +51,9 @@
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 0
+  },
+  "notifications": {
+    "min_toast_severity": 1
   },
   "print_start_history": {
     "entries": [
@@ -308,7 +311,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-10-21T13:14:36Z"
+          "timestamp": "2026-10-21T18:30:55Z"
         },
         "optional": []
       },
@@ -642,11 +645,11 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
+                  "col": -1,
                   "colspan": 4,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "active_spool",
-                  "row": 6,
+                  "row": -1,
                   "rowspan": 2
                 }
               ]
