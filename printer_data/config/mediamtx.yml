@@ -18,16 +18,28 @@ runOnConnect:               # Command to run when a client connects to the serve
 runOnConnectRestart: false  # Restart the command if it exits.
 runOnDisconnect:            # Command to run when a client disconnects from the server. Environment variables are the same as runOnConnect.
 
-authMethod: internal
+authMethod: internal        # Authentication method. Available values:
+                            # * Internal database: credentials are stored in the configuration file
+                            # * External HTTP server: an external HTTP URL is contacted for each authentication request
+                            # * External JWT provider: credentials are signed tokens released by an external identity server
 
-webrtc: true
-webrtcAddress: :8889
-webrtcEncryption: false
-webrtcServerKey: "" 
-webrtcServerCert: ""
-webrtcAllowOrigins: ["*"]
-webrtcLocalTCPAddress: :8189
-webrtcIPsFromInterfaces: true
+webrtc: true                  # Enable the WebRTC server, which allows to publish and read streams with the WebRTC protocol.
+webrtcAddress: :8889          # Address of the WebRTC TCP/HTTP listener.
+webrtcEncryption: false       # Enable HTTPS.
+                              # This covers only the WebRTC handshake, while WebRTC streams
+                              # are always encrypted with a key that is exchanged during the WebRTC handshake.
+webrtcServerKey: ""           # Path to the server key.
+                              # This can be generated with:
+                              # openssl genrsa -out server.key 2048
+                              # openssl req -new -x509 -sha256 -key server.key -out server.crt -days 3650
+webrtcServerCert: ""          # Path to the server certificate.
+webrtcAllowOrigins: ["*"]     # Allowed CORS origins.
+                              # Supports wildcards: ['http://*.example.com']
+webrtcLocalTCPAddress: :8189  # Address of a TCP/ICE listener that will receive connections.
+                              # This is disabled by default since TCP is less efficient than UDP and
+                              # introduces a progressive delay when network is congested.
+webrtcIPsFromInterfaces: true # WebRTC clients need to know the IP of the server.
+                              # Gather IPs from interfaces and send them to clients.
 
 paths:
   cam:
