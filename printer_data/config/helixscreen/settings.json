@@ -238,8 +238,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Big+Simplicity+-+Tray_ABS_27m31s.gcode\",\"job_id\":\"000013\",\"object_height\":12.0,\"start_time\":1793462403.3533518}",
-        "outlines": "{\"filename\":\"Big+Simplicity+-+Tray_ABS_27m31s.gcode\",\"objects\":[[[85.0,112.8],[215.0,112.8],[215.0,187.2],[85.0,187.2]]]}"
+        "last_occupied": "{\"filename\":\"funnel45_ABS_12m3s.gcode\",\"job_id\":\"000014\",\"object_height\":48.8,\"start_time\":1793467202.934508}",
+        "outlines": "{\"filename\":\"funnel45_ABS_12m3s.gcode\",\"objects\":[[[124.3,122.6],[181.6,122.6],[181.6,173.2],[124.3,173.2]],[[146.6,144.4],[162.4,144.4],[162.4,151.9],[158.4,151.9],[150.6,151.9],[146.6,151.9],[146.6,144.4]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -459,20 +459,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 4.184444444445004
+            "used_h": 4.342222222222807
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 4.184444444445004
+            "used_h": 4.342222222222807
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 4.184444444445004
+            "used_h": 4.342222222222807
           }
         },
-        "total_h": 4.184444444445004
+        "total_h": 4.342222222222807
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
