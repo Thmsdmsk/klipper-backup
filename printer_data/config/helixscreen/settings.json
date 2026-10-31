@@ -238,8 +238,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"funnel45_ABS_12m3s.gcode\",\"job_id\":\"000014\",\"object_height\":48.8,\"start_time\":1793467202.934508}",
-        "outlines": "{\"filename\":\"funnel45_ABS_12m3s.gcode\",\"objects\":[[[124.3,122.6],[181.6,122.6],[181.6,173.2],[124.3,173.2]],[[146.6,144.4],[162.4,144.4],[162.4,151.9],[158.4,151.9],[150.6,151.9],[146.6,151.9],[146.6,144.4]]]}"
+        "last_occupied": "{\"filename\":\"trichter_ABS_54m26s.gcode\",\"job_id\":\"000015\",\"object_height\":69.2,\"start_time\":1793469247.1713467}",
+        "outlines": "{\"filename\":\"trichter_ABS_54m26s.gcode\",\"objects\":[[[119.4,70.0],[194.8,70.0],[194.8,138.8],[119.4,138.8]],[[103.5,165.6],[105.0,165.6],[115.4,168.0],[115.4,179.0],[105.0,181.3],[103.5,181.3],[103.5,165.6]],[[102.8,161.1],[232.8,161.1],[232.8,235.4],[102.8,235.4]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
