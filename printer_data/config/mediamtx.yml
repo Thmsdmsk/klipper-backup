@@ -48,8 +48,8 @@ paths:
 
     rpiCameraCamID: 0           # ID of the camera
     rpiCameraSecondary: false   # Whether this is a secondary stream.
-    rpiCameraWidth: 4608 ##1920        # Width of frames.
-    rpiCameraHeight: 2592 ##1080       # Height of frames.
+    rpiCameraWidth: 1920        # Width of frames.
+    rpiCameraHeight: 1080       # Height of frames.
     rpiCameraHFlip: false       # Flip horizontally.
     rpiCameraVFlip: false       # Flip vertically.
     rpiCameraBrightness: 0      # Brightness [-1, 1].
