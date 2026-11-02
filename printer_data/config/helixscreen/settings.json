@@ -109,18 +109,6 @@
         "window": 1
       },
       {
-        "heating": 43,
-        "phases": {
-          "BED_MESH": 52,
-          "QGL": 7,
-          "SOAKING": 2
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793293257,
-        "total": 202,
-        "window": 1
-      },
-      {
         "heating": 45,
         "phases": {
           "BED_MESH": 45,
@@ -224,6 +212,18 @@
         "timestamp": 1793640441,
         "total": 117,
         "window": 1
+      },
+      {
+        "heating": 46,
+        "phases": {
+          "BED_MESH": 55,
+          "HOMING": 95,
+          "QGL": 8
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793647853,
+        "total": 219,
+        "window": 1
       }
     ]
   },
@@ -233,8 +233,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Ohne Titel 1_ABS_12m9s.gcode\",\"job_id\":\"00001A\",\"object_height\":32.4,\"start_time\":1793640323.164151}",
-        "outlines": "{\"filename\":\"Ohne Titel 1_ABS_12m9s.gcode\",\"objects\":[[[128.2,128.2],[171.8,128.2],[171.8,171.8],[128.2,171.8]]]}"
+        "last_occupied": "{\"filename\":\"Einsatz_PC-CF_46m6s.gcode\",\"job_id\":\"00001B\",\"object_height\":30.4,\"start_time\":1793647633.7222662}",
+        "outlines": "{\"filename\":\"Einsatz_PC-CF_46m6s.gcode\",\"objects\":[[[152.2,147.6],[155.1,147.6],[163.8,147.6],[163.8,175.5],[160.9,175.5],[152.2,175.5],[152.2,147.6]],[[137.0,175.7],[137.0,147.8],[139.9,147.8],[148.6,147.8],[148.6,147.8],[148.6,175.7],[139.9,175.7],[137.0,175.7]],[[118.1,132.6],[119.6,131.1],[127.8,131.2],[130.4,131.2],[133.6,131.2],[147.5,131.3],[148.9,132.7],[123.9,157.7],[119.7,162.0],[118.2,160.5],[118.1,132.6]],[[151.7,132.9],[153.1,131.5],[181.0,131.3],[182.5,132.8],[182.5,132.8],[182.4,160.8],[181.0,162.2],[151.7,132.9],[151.7,132.9]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -454,20 +454,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 7.238888888889926
+            "used_h": 8.018333333334434
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 7.238888888889926
+            "used_h": 8.018333333334434
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 7.238888888889926
+            "used_h": 8.018333333334434
           }
         },
-        "total_h": 7.238888888889926
+        "total_h": 8.018333333334434
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -875,7 +875,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.34256964921951294
+        "heat_rate": 0.29373085498809814
       },
       "heater_bed": {
         "heat_rate": 4.708745956420898
