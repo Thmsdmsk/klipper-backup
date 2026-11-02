@@ -60,7 +60,7 @@ paths:
     rpiCameraAWBGains: [0, 0]   # Auto-white-balance fixed gains. This can be used in place of rpiCameraAWB. Format: [red,blue].
     rpiCameraDenoise: "off"     # Denoise operating mode (off, cdn_off, cdn_fast, cdn_hq).
     rpiCameraShutter: 0         # Fixed shutter speed, in microseconds.
-    rpiCameraMetering: centre   # Metering mode of the AEC/AGC algorithm (centre, spot, matrix or custom).
+    rpiCameraMetering: matrix   # Metering mode of the AEC/AGC algorithm (centre, spot, matrix or custom).
     rpiCameraGain:              # Fixed gain.
     rpiCameraEV: -5             # EV compensation of the image in range [-10, 10].
     rpiCameraROI:               # Region of interest, in format x,y,width,height (all normalized between 0 and 1).
