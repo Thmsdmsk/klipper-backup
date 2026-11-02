@@ -55,7 +55,7 @@ paths:
     rpiCameraBrightness: 0      # Brightness [-1, 1].
     rpiCameraContrast: 1        # Contrast [0, 16].
     rpiCameraSaturation: 1      # Saturation [0, 16].
-    rpiCameraSharpness: 5       # Sharpness [0, 16].
+    rpiCameraSharpness: 1       # Sharpness [0, 16].
     rpiCameraExposure: normal   # Exposure mode. Values: normal, short, long, custom.
     rpiCameraAWB: auto          # Auto-white-balance mode. (auto, incandescent, tungsten, fluorescent, indoor, daylight, cloudy or custom).
     rpiCameraAWBGains: [0, 0]   # Auto-white-balance fixed gains. This can be used in place of rpiCameraAWB. Format: [red,blue].
