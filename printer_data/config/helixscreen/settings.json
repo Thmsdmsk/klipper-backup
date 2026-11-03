@@ -5,7 +5,7 @@
   },
   "brightness": 100,
   "completion_alert": 0,
-  "config_version": 31,
+  "config_version": 32,
   "dark_mode": true,
   "display": {
     "animations_enabled": true,
@@ -312,7 +312,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-11-03T12:53:24Z"
+          "timestamp": "2026-11-03T12:54:41Z"
         },
         "optional": []
       },
