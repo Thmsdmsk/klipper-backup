@@ -56,7 +56,7 @@
   "log_level": "warn",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 2
+    "jog_mode": 1
   },
   "notifications": {
     "min_toast_severity": 2
@@ -310,7 +310,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-11-03T20:24:38Z"
+          "timestamp": "2026-11-04T19:40:52Z"
         },
         "optional": []
       },
@@ -546,11 +546,11 @@
                 },
                 {
                   "col": 3,
-                  "colspan": 4,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "motion",
-                  "row": 2,
-                  "rowspan": 3
+                  "row": 3,
+                  "rowspan": 2
                 },
                 {
                   "col": -1,
@@ -768,7 +768,7 @@
                   },
                   "enabled": true,
                   "id": "fan:1",
-                  "row": 5,
+                  "row": 6,
                   "rowspan": 2
                 },
                 {
@@ -779,7 +779,7 @@
                   },
                   "enabled": true,
                   "id": "fan:2",
-                  "row": 5,
+                  "row": 6,
                   "rowspan": 2
                 },
                 {
@@ -790,7 +790,7 @@
                   },
                   "enabled": true,
                   "id": "fan:3",
-                  "row": 5,
+                  "row": 6,
                   "rowspan": 2
                 },
                 {
@@ -805,8 +805,8 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 7,
-                  "colspan": 5,
+                  "col": 6,
+                  "colspan": 6,
                   "config": {
                     "layout_style": "library",
                     "show_job_queue": false,
@@ -818,7 +818,7 @@
                   "enabled": true,
                   "id": "print_status",
                   "row": 2,
-                  "rowspan": 3
+                  "rowspan": 4
                 },
                 {
                   "col": 7,
