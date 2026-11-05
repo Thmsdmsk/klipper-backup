@@ -5,7 +5,7 @@
   },
   "brightness": 100,
   "completion_alert": 0,
-  "config_version": 32,
+  "config_version": 33,
   "dark_mode": true,
   "display": {
     "animations_enabled": true,
@@ -16,9 +16,9 @@
     "gcode_render_mode": 2,
     "glass_probe": {
       "board": "drm/4c/100bm/800x480/32bpp",
-      "frame_ms": 7.233124,
+      "frame_ms": 6.946275,
       "passed": false,
-      "version": "1.1.0-beta.15 (24661f3)"
+      "version": "1.1.0-beta.16 (eeb9332)"
     },
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
@@ -56,7 +56,7 @@
   "log_level": "warn",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 1
+    "jog_mode": 2
   },
   "notifications": {
     "min_toast_severity": 2
@@ -310,7 +310,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-11-04T19:40:52Z"
+          "timestamp": "2026-11-05T15:02:49Z"
         },
         "optional": []
       },
