@@ -5,7 +5,7 @@
   },
   "brightness": 100,
   "completion_alert": 0,
-  "config_version": 33,
+  "config_version": 34,
   "dark_mode": true,
   "display": {
     "animations_enabled": true,
@@ -16,9 +16,9 @@
     "gcode_render_mode": 2,
     "glass_probe": {
       "board": "drm/4c/100bm/800x480/32bpp",
-      "frame_ms": 6.946275,
+      "frame_ms": 17.423662,
       "passed": false,
-      "version": "1.1.0-beta.16 (eeb9332)"
+      "version": "1.1.0-rc.4 (a294f77)"
     },
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
@@ -109,116 +109,121 @@
         "window": 1
       },
       {
-        "heating": 38,
+        "heating": 69,
         "phases": {
-          "BED_MESH": 90,
-          "QGL": 8
+          "BED_MESH": 80,
+          "HOMING": 32,
+          "QGL": 10
         },
         "temp_bucket": 2,
-        "timestamp": 1793469541,
-        "total": 180,
+        "timestamp": 1794152742,
+        "total": 191,
         "window": 1
       },
       {
-        "heating": 30,
+        "heating": 66,
         "phases": {
-          "BED_MESH": 92,
+          "BED_MESH": 127,
           "QGL": 8
         },
         "temp_bucket": 2,
-        "timestamp": 1793527508,
-        "total": 223,
+        "timestamp": 1794153547,
+        "total": 200,
         "window": 1
       },
       {
-        "heating": 39,
+        "heating": 49,
         "phases": {
-          "BED_MESH": 84,
+          "BED_MESH": 129,
+          "HOMING": 41,
+          "QGL": 10
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794154775,
+        "total": 238,
+        "window": 1
+      },
+      {
+        "heating": 89,
+        "phases": {
+          "BED_MESH": 83,
+          "HOMING": 17,
           "QGL": 9
         },
         "skipped": [],
         "temp_bucket": 2,
-        "timestamp": 1793531644,
-        "total": 154,
+        "timestamp": 1794157360,
+        "total": 218,
         "window": 1
       },
       {
-        "heating": 38,
+        "heating": 54,
+        "phases": {
+          "BED_MESH": 43,
+          "QGL": 25
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794159651,
+        "total": 133,
+        "window": 1
+      },
+      {
+        "heating": 40,
+        "phases": {
+          "BED_MESH": 77,
+          "HOMING": 34,
+          "QGL": 10
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794250351,
+        "total": 195,
+        "window": 1
+      },
+      {
+        "heating": 37,
+        "phases": {
+          "BED_MESH": 70,
+          "QGL": 10
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1794251328,
+        "total": 138,
+        "window": 1
+      },
+      {
+        "heating": 37,
+        "phases": {
+          "BED_MESH": 79,
+          "HOMING": 36,
+          "QGL": 10
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794310883,
+        "total": 196,
+        "window": 1
+      },
+      {
+        "heating": 37,
         "phases": {
           "BED_MESH": 65,
-          "QGL": 7
+          "HOMING": 38,
+          "QGL": 11
         },
         "temp_bucket": 2,
-        "timestamp": 1793638922,
-        "total": 134,
-        "window": 1
-      },
-      {
-        "heating": 38,
-        "phases": {
-          "BED_MESH": 45,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793640441,
-        "total": 117,
-        "window": 1
-      },
-      {
-        "heating": 46,
-        "phases": {
-          "BED_MESH": 55,
-          "HOMING": 95,
-          "QGL": 8
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793647853,
-        "total": 219,
-        "window": 1
-      },
-      {
-        "heating": 52,
-        "phases": {
-          "BED_MESH": 53,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793653941,
-        "total": 136,
-        "window": 1
-      },
-      {
-        "heating": 47,
-        "phases": {
-          "BED_MESH": 85,
-          "QGL": 7
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793712981,
-        "total": 160,
+        "timestamp": 1794328389,
+        "total": 183,
         "window": 1
       },
       {
         "heating": 51,
         "phases": {
-          "BED_MESH": 95,
-          "QGL": 10
-        },
-        "skipped": [],
-        "temp_bucket": 2,
-        "timestamp": 1793713737,
-        "total": 171,
-        "window": 1
-      },
-      {
-        "heating": 56,
-        "phases": {
-          "BED_MESH": 63,
-          "QGL": 8
+          "BED_MESH": 21,
+          "QGL": 25
         },
         "temp_bucket": 2,
-        "timestamp": 1793721662,
-        "total": 144,
+        "timestamp": 1794922251,
+        "total": 122,
         "window": 1
       }
     ]
@@ -229,8 +234,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"skirt_02_ASA-CF_1h34m.gcode\",\"job_id\":\"00001F\",\"object_height\":66.0,\"start_time\":1793721517.9120717}",
-        "outlines": "{\"filename\":\"skirt_02_ASA-CF_1h34m.gcode\",\"objects\":[[[83.8,103.2],[90.1,96.8],[152.6,105.5],[200.8,153.7],[226.9,220.8],[226.9,221.7],[220.9,227.6],[200.4,219.8],[200.4,219.8],[83.8,103.2],[83.8,103.2]],[[213.2,235.5],[220.8,226.7],[220.8,226.7],[221.0,226.7],[228.7,235.5],[221.0,243.3],[213.2,235.5]],[[82.5,113.0],[94.1,112.2],[94.1,112.2],[94.2,112.3],[93.5,124.0],[82.5,124.0],[82.5,113.0]],[[179.5,210.1],[191.2,209.3],[191.2,209.3],[191.3,209.4],[190.5,221.1],[179.5,221.1],[179.5,210.1]]]}"
+        "last_occupied": "{\"filename\":\"300mm_printed_parts_PC-CF_1h27m.gcode\",\"job_id\":\"00002F\",\"object_height\":31.0,\"start_time\":1794922129.4260375}",
+        "outlines": "{\"filename\":\"300mm_printed_parts_PC-CF_1h27m.gcode\",\"objects\":[[[124.8,159.2],[131.8,159.2],[131.8,175.2],[124.8,175.2],[124.8,159.2]],[[132.8,176.2],[139.8,176.2],[139.8,192.2],[132.8,192.2],[132.8,176.2]],[[132.8,159.2],[139.8,159.2],[139.8,175.2],[132.8,175.2],[132.8,159.2]],[[140.8,176.2],[147.8,176.2],[147.8,192.2],[140.8,192.2],[140.8,176.2]],[[140.8,159.2],[147.8,159.2],[147.8,175.2],[140.8,175.2],[140.8,159.2]],[[148.8,176.2],[155.8,176.2],[155.8,192.2],[148.8,192.2],[148.8,176.2]],[[148.8,159.2],[155.8,159.2],[155.8,175.2],[148.8,175.2],[148.8,159.2]],[[156.8,176.2],[163.8,176.2],[163.8,192.2],[156.8,192.2],[156.8,176.2]],[[156.8,159.2],[163.8,159.2],[163.8,175.2],[156.8,175.2],[156.8,159.2]],[[107.8,160.2],[108.8,159.2],[122.8,159.2],[123.8,160.2],[123.8,174.2],[122.8,175.2],[108.8,175.2],[107.8,174.2],[107.8,160.2]],[[164.8,176.2],[171.8,176.2],[171.8,192.2],[164.8,192.2],[164.8,176.2]],[[164.8,159.2],[171.8,159.2],[171.8,175.2],[164.8,175.2],[164.8,159.2]],[[124.8,176.2],[131.8,176.2],[131.8,192.2],[124.8,192.2],[124.8,176.2]],[[107.8,177.2],[108.8,176.2],[122.8,176.2],[123.8,177.2],[123.8,191.2],[122.8,192.2],[108.8,192.2],[107.8,191.2],[107.8,177.2]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -310,7 +315,7 @@
             "temperature_sensor BTT_KRAKEN",
             "temperature_sensor BTT_EBB36"
           ],
-          "timestamp": "2026-11-05T15:02:49Z"
+          "timestamp": "2026-11-19T19:54:59Z"
         },
         "optional": []
       },
@@ -450,20 +455,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 12.638333333320384
+            "used_h": 26.149722222233088
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 12.638333333320384
+            "used_h": 26.149722222233088
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 12.638333333320384
+            "used_h": 26.149722222233088
           }
         },
-        "total_h": 12.638333333320384
+        "total_h": 26.149722222233088
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -502,7 +507,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
+                  "col": 10,
                   "colspan": 2,
                   "enabled": true,
                   "id": "bed_temperature",
@@ -518,7 +523,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 3,
+                  "col": 0,
                   "colspan": 2,
                   "enabled": true,
                   "id": "macros",
@@ -537,15 +542,15 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
+                  "col": 10,
                   "colspan": 2,
                   "enabled": true,
                   "id": "chamber_temperature",
-                  "row": 5,
-                  "rowspan": 3
+                  "row": 6,
+                  "rowspan": 2
                 },
                 {
-                  "col": 3,
+                  "col": 4,
                   "colspan": 2,
                   "enabled": true,
                   "id": "motion",
@@ -561,12 +566,12 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
+                  "col": 10,
                   "colspan": 2,
                   "enabled": true,
                   "id": "temperature",
                   "row": 0,
-                  "rowspan": 3
+                  "rowspan": 2
                 },
                 {
                   "col": -1,
@@ -721,11 +726,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 9,
+                  "col": -1,
                   "colspan": 3,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "clock",
-                  "row": 0,
+                  "row": -1,
                   "rowspan": 2
                 },
                 {
@@ -761,30 +766,30 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 3,
-                  "colspan": 3,
+                  "col": 8,
+                  "colspan": 2,
                   "config": {
                     "fan": "fan"
                   },
                   "enabled": true,
                   "id": "fan:1",
-                  "row": 6,
+                  "row": 0,
                   "rowspan": 2
                 },
                 {
-                  "col": 6,
-                  "colspan": 3,
+                  "col": 8,
+                  "colspan": 2,
                   "config": {
                     "fan": "fan_generic Nevermore"
                   },
                   "enabled": true,
                   "id": "fan:2",
-                  "row": 6,
+                  "row": 3,
                   "rowspan": 2
                 },
                 {
-                  "col": 9,
-                  "colspan": 3,
+                  "col": 8,
+                  "colspan": 2,
                   "config": {
                     "fan": "fan_generic Exhaust"
                   },
@@ -794,7 +799,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 5,
+                  "col": 4,
                   "colspan": 2,
                   "config": {
                     "led": "led Chamber"
@@ -805,27 +810,40 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 6,
+                  "col": 0,
                   "colspan": 6,
                   "config": {
                     "layout_style": "library",
                     "show_job_queue": false,
-                    "show_print_files": false,
+                    "show_print_files": true,
                     "show_recent_prints": false,
                     "show_reprint_last": false,
-                    "show_title": false
+                    "show_title": true
                   },
                   "enabled": true,
                   "id": "print_status",
-                  "row": 2,
-                  "rowspan": 4
+                  "row": 5,
+                  "rowspan": 3
                 },
                 {
-                  "col": 7,
+                  "col": 2,
                   "colspan": 2,
                   "enabled": true,
                   "id": "gcode_console",
                   "row": 0,
+                  "rowspan": 2
+                },
+                {
+                  "col": 2,
+                  "colspan": 2,
+                  "config": {
+                    "color": 15022389,
+                    "icon": "flash",
+                    "macro": "SYNC_MOTOR"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:1",
+                  "row": 3,
                   "rowspan": 2
                 }
               ]
@@ -871,16 +889,16 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3568282723426819
+        "heat_rate": 0.3723844587802887
       },
       "heater_bed": {
-        "heat_rate": 4.708745956420898
+        "heat_rate": 7.09204626083374
       }
     }
   },
   "tour": {
     "completed": true,
-    "last_seen_version": 1
+    "last_seen_version": 2
   },
   "ui": {
     "cached_grid": {
@@ -892,7 +910,7 @@
   "ui_sounds_enabled": true,
   "update": {
     "channel": 1,
-    "dismissed_version": "1.0.0",
+    "dismissed_version": "1.1.0-rc.2",
     "moonraker_channel": "beta"
   },
   "wifi_expected": true,
